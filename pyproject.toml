@@ -8,6 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+ipython = "^8.5.0"
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.10.1"
