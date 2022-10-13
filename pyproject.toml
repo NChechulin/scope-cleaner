@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Nikolay Chechulin <nchechulin@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.10.1"
+black = {extras = ["jupyter"], version = "^22.8.0"}
+bandit = "^1.7.4"
+flake8 = "^5.0.4"
+mypy = "^0.971"
+pylint = "^2.15.3"
+pre-commit = "^2.20.0"
+flake8-pie = "^0.16.0"
+flake8-use-pathlib = "^0.3.0"
+flake8-builtins = "^1.5.3"
+pep8-naming = "^0.13.2"
+flake8-eradicate = "^1.4.0"
+flake8-absolute-import = "^1.0.0.1"
+flake8-new-union-types = "^0.4.1"
+flake8-annotations-complexity = "^0.0.7"
+flake8-nb = "^0.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
