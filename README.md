@@ -5,6 +5,8 @@ I wrote this package because I didn't like by global scope to be cluttered with 
 
 ## Installation
 
+[![PyPi version](https://badgen.net/pypi/v/scope-cleaner/)](https://pypi.org/project/scope-cleaner)
+
 Via pip: `pip install scope-cleaner`
 
 ## Usage

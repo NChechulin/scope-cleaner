@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "scope-cleaner"
-version = "0.1.0.post2"
+version = "0.1.0.post3"
 description = "An IPython cell magic to remove temporary variables"
 authors = ["Nikolay Chechulin <nchechulin@protonmail.com>"]
 license = "MIT"
