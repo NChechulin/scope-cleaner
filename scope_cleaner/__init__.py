@@ -9,7 +9,7 @@ The most common usecase is some variables used for EDA (Exploratory
 data analysis), or when some statistic has to be printed.
 """
 
-__version__ = "0.0.1"
+__version__ = "0.1.0.post4"
 
 from typing import Any
 

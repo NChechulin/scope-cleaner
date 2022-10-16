@@ -3,7 +3,7 @@ This module contains an IPython magic to cleanup variables with a given prefix.
 """
 
 
-from typing import Any, List
+from typing import Any, Dict, List
 
 from IPython import get_ipython
 from IPython.core.magic import needs_local_scope, register_cell_magic
@@ -29,7 +29,7 @@ def generate_delete_statement(variables: List[str]) -> str:
 def cleanup_temporary_vars(
     line: str,
     cell: str,
-    local_ns: dict[str, Any],
+    local_ns: Dict[str, Any],
 ) -> None:
     """
     Remove temporary variables introduced in current cell.
@@ -37,7 +37,7 @@ def cleanup_temporary_vars(
     Args:
         line (str): IPython argument containing variable prefix
         cell (str): Code of the cell
-        global_ns (dict[str, Any]): Python namespace containing all variables.
+        global_ns (Dict[str, Any]): Python namespace containing all variables.
 
     Returns:
         Tuple[str, str]: `line` and `cell`

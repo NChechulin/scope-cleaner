@@ -43,13 +43,13 @@ def extract_assigned_vars(tokens: List[tokenize.TokenInfo]) -> Set[str]:
     return var_names
 
 
-def get_variables_from_code(cell_code: str, global_vars: set[str]) -> List[str]:
+def get_variables_from_code(cell_code: str, global_vars: Set[str]) -> List[str]:
     """
     Extract all variables which have been assigned a value from python cell code.
 
     Args:
         cell_code (str): Python cell code.
-        global_vars (set[str]): Set of variables from global scope.
+        global_vars (Set[str]): Set of variables from global scope.
         Used for validation of parsed variables.
 
     Returns:
