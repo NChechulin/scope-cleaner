@@ -1,23 +1,14 @@
-[project]
-name = "scope-cleaner"
-version = "0.1.0.post1"
-authors = [
-  { name = "Nikolay Chechulin", email = "nchechulin@protonmail.com" }
-]
-description = "An IPython cell magic to remove temporary variables"
-readme = "README.md"
-
-[project.urls]
-"Homepage" = "https://github.com/NChechulin/scope-cleaner"
-"Bug tracker" = "https://github.com/NChechulin/scope-cleaner/issues"
-
 [tool.poetry]
 name = "scope-cleaner"
-version = "0.1.0.post1"
+version = "0.1.0.post2"
 description = "An IPython cell magic to remove temporary variables"
 authors = ["Nikolay Chechulin <nchechulin@protonmail.com>"]
 license = "MIT"
 readme = "README.md"
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/NChechulin/scope-cleaner"
+"Bug tracker" = "https://github.com/NChechulin/scope-cleaner/issues"
 
 [tool.poetry.dependencies]
 python = "^3.10"
