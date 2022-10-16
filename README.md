@@ -5,7 +5,7 @@ I wrote this package because I didn't like by global scope to be cluttered with 
 
 ## Installation
 
-ToDo
+Via pip: `pip install scope-cleaner`
 
 ## Usage
 
