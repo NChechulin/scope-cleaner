@@ -52,9 +52,9 @@ six==1.16.0 ; python_version >= "3.8" and python_version < "4.0" \
 stack-data==0.5.1 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:5120731a18ba4c82cefcf84a945f6f3e62319ef413bfc210e32aca3a69310ba2 \
     --hash=sha256:95eb784942e861a3d80efd549ff9af6cf847d88343a12eb681d7157cfcb6e32b
-traitlets==5.4.0 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:3f2c4e435e271592fe4390f1746ea56836e3a080f84e7833f0f801d9613fec39 \
-    --hash=sha256:93663cc8236093d48150e2af5e2ed30fc7904a11a6195e21bab0408af4e6d6c8
+traitlets==5.5.0; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:1201b2c9f76097195989cdf7f65db9897593b0dfd69e4ac96016661bb6f0d30f \
+    --hash=sha256:b122f9ff2f2f6c1709dab289a05555be011c87828e911c0cf4074b85cb780a79
 wcwidth==0.2.5 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784 \
     --hash=sha256:c4d647b99872929fdb7bdcaa4fbe7f01413ed3d98077df798530e5b04f116c83
