@@ -19,7 +19,7 @@ isort = "^5.10.1"
 black = {extras = ["jupyter"], version = "^22.8.0"}
 bandit = "^1.7.4"
 flake8 = "^5.0.4"
-mypy = "^0.971"
+mypy = "^0.982"
 pylint = "^2.15.3"
 pre-commit = "^2.20.0"
 flake8-pie = "^0.16.0"
