@@ -16,7 +16,7 @@ ipython = "^8.5.0"
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.10.1"
-black = {extras = ["jupyter"], version = "^22.8.0"}
+black = {extras = ["jupyter"], version = "^23.0.0"}
 bandit = "^1.7.4"
 flake8 = "^6.0.0"
 mypy = "^0.991"
