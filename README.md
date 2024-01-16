@@ -1,7 +1,7 @@
 # Scope cleaner
 
 An IPython cell magic to remove temporary variables.
-I wrote this package because I didn't like by global scope to be cluttered with variables I used in 1 cell only during EDA (Exploratory Data Analysis).
+I wrote this package because I didn't like the global scope to be cluttered with variables I used in one cell only during EDA (Exploratory Data Analysis) or data preparation.
 
 ## Installation
 
