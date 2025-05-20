@@ -603,9 +603,9 @@ traitlets==5.4.0 ; python_version >= "3.8" and python_version < "4.0" \
 typing-extensions==4.4.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa \
     --hash=sha256:16fa4864408f655d35ec496218b85f79b3437c829e93320c7c9215ccfd92489e
-virtualenv==20.16.5 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:227ea1b9994fdc5ea31977ba3383ef296d7472ea85be9d6732e42a91c04e80da \
-    --hash=sha256:d07dfc5df5e4e0dbc92862350ad87a36ed505b978f6c39609dc489eadd5b0d27
+virtualenv==20.26.6 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:280aede09a2a5c317e409a00102e7077c6432c5a38f0ef938e643805a7ad2c48 \
+    --hash=sha256:7345cc5b25405607a624d8418154577459c3e0277f5466dd79c49d5e492995f2
 wcwidth==0.2.5 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784 \
     --hash=sha256:c4d647b99872929fdb7bdcaa4fbe7f01413ed3d98077df798530e5b04f116c83
