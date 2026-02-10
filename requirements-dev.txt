@@ -328,9 +328,9 @@ mypy==0.971 ; python_version >= "3.8" and python_version < "4.0" \
 nbclient==0.7.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:434c91385cf3e53084185334d675a0d33c615108b391e260915d1aa8e86661b8 \
     --hash=sha256:a1d844efd6da9bc39d2209bf996dbd8e07bf0f36b796edfabaa8f8a9ab77c3aa
-nbconvert==7.2.1 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:1e180801205ad831b6e2480c5a03307dfb6327fa5b2f9b156d6fed45f9700686 \
-    --hash=sha256:50a54366ab53da20e82668818b7b2f3f7b85c0bcd46ec8e18836f12b39180dfa
+nbconvert==7.17.0 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:1b2696f1b5be12309f6c7d707c24af604b87dfaf6d950794c7b07acab96dda78 \
+    --hash=sha256:4f99a63b337b9a23504347afdab24a11faa7d86b405e5c8f9881cd313336d518
 nbformat==5.7.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:1b05ec2c552c2f1adc745f4eddce1eac8ca9ffd59bb9fd859e827eaa031319f9 \
     --hash=sha256:1d4760c15c1a04269ef5caf375be8b98dd2f696e5eb9e603ec2bf091f9b0d3f3
